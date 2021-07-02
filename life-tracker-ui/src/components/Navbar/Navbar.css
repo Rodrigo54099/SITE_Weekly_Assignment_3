@@ -1,0 +1,67 @@
+.Navbar {
+  width: 100%;
+  max-width: 100vw;
+  background-color: rgb(242, 243, 243);
+  color: var(--pure-white);
+  height: 70px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0 var(--side-padding);
+  margin-top: 1rem;
+}
+.Navbar a {
+  color: rgb(0, 0, 0);
+  font-weight: 500;
+}
+
+.Navbar .content {
+  max-width: var(--content-width);
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.Navbar .content .logo {
+  width: 100px;
+  margin-right: 50px;
+}
+
+.Navbar .content .links {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  list-style-type: none;
+  flex: 2;
+}
+
+.Navbar .content .auth a,
+.Navbar .content .signup a {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-weight: 500;
+  background-color: rgb(242, 243, 243);
+}
+
+.Navbar .content .auth a {
+  color: rgb(0, 0, 0);
+  border-radius: 25px;
+  border: 2px solid #172638;
+  width: 110px;
+  height: 40px;
+  display: flex;
+}
+
+.Navbar .content .signup {
+  color: var(--pure-white);
+  border-radius: 25px;
+  border: 2px solid #172638;
+  width: 110px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 20px;
+}
